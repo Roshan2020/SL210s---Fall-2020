@@ -1,0 +1,131 @@
+header, main, nav, footer{
+  text-align: center;
+  background-color: lightblue;
+}
+
+.table{
+  text-align: left;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a{/* links within "nav" container */
+padding: 15px;
+padding-bottom: 4px;
+font-size: 1.8em;
+text-decoration: none;
+color: black;
+}
+
+nav a:hover{
+  font-size: 2em;
+  transition: .9s;
+}
+
+.carousel-inner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+d-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+  margin: 0 auto;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:100%;
+  height: 300px;
+}
+
+
+.start::first-letter{
+  display:block;
+  float:left;
+  margin:3px;
+  color: royalblue;
+  font-size:200%;
+}
+
+ul{
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#bottomimg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+img.avatar2 {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
